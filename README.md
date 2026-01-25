@@ -43,4 +43,15 @@ streamlit run app.py
 
 The application will open in your default web browser at `http://localhost:8501`.
 
-> **Note**: The `frontend/` directory contains a static HTML mock-up and is **not** the active application. Please use `app.py`.
+## Deployment
+
+### Real Application (Streamlit Cloud - RECOMMENDED)
+To host the functional AI application:
+1. Go to [Streamlit Community Cloud](https://share.streamlit.io/).
+2. Connect your GitHub repository.
+3. Set your `OPENAI_API_KEY` in the Streamlit "Secrets" settings.
+
+### Mockup Site (Vercel)
+The root of this repository is configured to serve the `frontend/` directory on Vercel. Note that this is a **static mockup** and does not process AI data.
+
+## Verified Status
