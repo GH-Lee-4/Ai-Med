@@ -1,0 +1,39 @@
+[
+    {
+        "symptoms": "wheezing and chest tightness with difficulty breathing",
+        "urgency": "HIGH",
+        "causes": ["Asthma"],
+        "risks": ["Risk of severe asthma attack", "Potential for respiratory failure"]
+    },
+    {
+        "symptoms": "cough with fever chills and chest pain",
+        "urgency": "HIGH",
+        "causes": ["Pneumonia"],
+        "risks": ["Risk of respiratory complications"]
+    },
+    {
+        "symptoms": "productive cough with yellow green phlegm",
+        "urgency": "MODERATE",
+        "causes": ["Bronchitis", "Pneumonia"],
+        "risks": ["Risk of respiratory complications"]
+    },
+    {
+        "symptoms": "chronic cough and shortness of breath",
+        "urgency": "MODERATE",
+        "causes": ["Chronic obstructive pulmonary disease (COPD)"],
+        "risks": ["Risk of respiratory failure"]
+    },
+    {
+        "symptoms": "sore throat with difficulty swallowing and fever",
+        "urgency": "MODERATE",
+        "causes": ["Strep throat", "Tonsillitis"],
+        "risks": ["Risk of complications from strep throat"]
+    },
+    {
+        "symptoms": "runny nose congestion and sneezing",
+        "urgency": "LOW",
+        "causes": ["Common cold", "Allergies"],
+        "risks": ["Risk of sinus infection"]
+    }
+]
+

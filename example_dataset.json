@@ -1,0 +1,63 @@
+[
+    {
+        "symptoms": "severe chest pain with shortness of breath and sweating",
+        "urgency": "CRITICAL",
+        "causes": ["Heart attack or angina", "Pulmonary embolism"],
+        "risks": ["Risk of heart attack or cardiac event", "Potential for life-threatening condition"]
+    },
+    {
+        "symptoms": "mild headache and fatigue for three days",
+        "urgency": "LOW",
+        "causes": ["Tension headache", "Sleep deprivation"],
+        "risks": ["General health monitoring recommended"]
+    },
+    {
+        "symptoms": "high fever with chills and body aches",
+        "urgency": "MODERATE",
+        "causes": ["Viral infection (flu, cold)", "Bacterial infection"],
+        "risks": ["Risk of complications from infection"]
+    },
+    {
+        "symptoms": "persistent cough with wheezing and chest tightness",
+        "urgency": "HIGH",
+        "causes": ["Asthma", "Bronchitis", "Pneumonia"],
+        "risks": ["Risk of severe asthma attack", "Potential for respiratory failure"]
+    },
+    {
+        "symptoms": "abdominal pain with nausea and vomiting",
+        "urgency": "MODERATE",
+        "causes": ["Gastroenteritis", "Food poisoning", "Appendicitis"],
+        "risks": ["Risk of dehydration", "Risk of appendicitis requiring surgery"]
+    },
+    {
+        "symptoms": "sudden severe headache with vision problems",
+        "urgency": "CRITICAL",
+        "causes": ["Stroke", "Meningitis", "Brain hemorrhage"],
+        "risks": ["Risk of stroke or brain hemorrhage", "Potential for permanent damage"]
+    },
+    {
+        "symptoms": "dizziness when standing up with feeling faint",
+        "urgency": "MODERATE",
+        "causes": ["Low blood pressure", "Dehydration", "Inner ear problems"],
+        "risks": ["Risk of falls and injury", "Potential for fainting"]
+    },
+    {
+        "symptoms": "rash with itching and redness on arms",
+        "urgency": "LOW",
+        "causes": ["Allergic reaction", "Eczema", "Contact dermatitis"],
+        "risks": ["Risk of infection if scratched"]
+    },
+    {
+        "symptoms": "joint pain and stiffness in knees and hands",
+        "urgency": "LOW",
+        "causes": ["Arthritis", "Osteoarthritis", "Rheumatoid arthritis"],
+        "risks": ["Risk of decreased mobility", "Potential for chronic arthritis"]
+    },
+    {
+        "symptoms": "frequent urination with burning sensation",
+        "urgency": "MODERATE",
+        "causes": ["Urinary tract infection (UTI)", "Bladder infection"],
+        "risks": ["Risk of kidney infection", "Potential for sepsis"]
+    }
+]
+

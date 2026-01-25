@@ -1,0 +1,51 @@
+[
+    {
+        "symptoms": "severe chest pain with left arm numbness and sweating",
+        "urgency": "CRITICAL",
+        "causes": ["Heart attack or angina"],
+        "risks": ["Risk of heart attack or cardiac event", "Potential for life-threatening condition"]
+    },
+    {
+        "symptoms": "chest pain radiating to jaw and neck",
+        "urgency": "CRITICAL",
+        "causes": ["Heart attack or angina"],
+        "risks": ["Risk of heart attack or cardiac event"]
+    },
+    {
+        "symptoms": "crushing chest pressure with shortness of breath",
+        "urgency": "CRITICAL",
+        "causes": ["Heart attack or angina", "Pulmonary embolism"],
+        "risks": ["Risk of heart attack or cardiac event"]
+    },
+    {
+        "symptoms": "chest pain during physical exertion",
+        "urgency": "HIGH",
+        "causes": ["Exercise-induced angina", "Heart attack or angina"],
+        "risks": ["Risk of heart attack or cardiac event"]
+    },
+    {
+        "symptoms": "shortness of breath when lying flat",
+        "urgency": "HIGH",
+        "causes": ["Heart failure"],
+        "risks": ["Risk of heart failure complications"]
+    },
+    {
+        "symptoms": "swollen ankles and legs with shortness of breath",
+        "urgency": "HIGH",
+        "causes": ["Heart failure", "Kidney disease"],
+        "risks": ["Risk of heart or kidney failure"]
+    },
+    {
+        "symptoms": "irregular heartbeat with dizziness",
+        "urgency": "HIGH",
+        "causes": ["Arrhythmia", "Atrial fibrillation"],
+        "risks": ["Risk of arrhythmia complications"]
+    },
+    {
+        "symptoms": "rapid heart rate over 120 beats per minute",
+        "urgency": "HIGH",
+        "causes": ["Tachycardia", "Hyperthyroidism"],
+        "risks": ["Risk of arrhythmia complications"]
+    }
+]
+

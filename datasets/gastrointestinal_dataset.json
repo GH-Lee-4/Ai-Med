@@ -1,0 +1,39 @@
+[
+    {
+        "symptoms": "severe right lower abdominal pain with nausea",
+        "urgency": "CRITICAL",
+        "causes": ["Appendicitis"],
+        "risks": ["Risk of appendicitis requiring surgery"]
+    },
+    {
+        "symptoms": "diarrhea and vomiting with stomach cramps",
+        "urgency": "MODERATE",
+        "causes": ["Gastroenteritis", "Food poisoning"],
+        "risks": ["Risk of dehydration"]
+    },
+    {
+        "symptoms": "heartburn after eating spicy foods",
+        "urgency": "LOW",
+        "causes": ["Gastroesophageal reflux disease (GERD)"],
+        "risks": ["Risk of esophageal damage"]
+    },
+    {
+        "symptoms": "bright red blood in stool",
+        "urgency": "CRITICAL",
+        "causes": ["Hemorrhoids", "Anal fissure", "Colon cancer"],
+        "risks": ["Risk of serious gastrointestinal condition"]
+    },
+    {
+        "symptoms": "black tarry stools",
+        "urgency": "CRITICAL",
+        "causes": ["Upper GI bleeding", "Peptic ulcer"],
+        "risks": ["Risk of serious gastrointestinal condition"]
+    },
+    {
+        "symptoms": "abdominal bloating and gas",
+        "urgency": "LOW",
+        "causes": ["Irritable bowel syndrome (IBS)", "Food intolerance"],
+        "risks": ["Risk of underlying digestive disorder"]
+    }
+]
+

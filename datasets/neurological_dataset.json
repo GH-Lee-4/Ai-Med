@@ -1,0 +1,51 @@
+[
+    {
+        "symptoms": "sudden weakness on one side of body",
+        "urgency": "CRITICAL",
+        "causes": ["Stroke"],
+        "risks": ["Risk of permanent brain damage"]
+    },
+    {
+        "symptoms": "sudden speech difficulty and confusion",
+        "urgency": "CRITICAL",
+        "causes": ["Stroke", "Transient ischemic attack (TIA)"],
+        "risks": ["Risk of permanent brain damage"]
+    },
+    {
+        "symptoms": "thunderclap headache worst of my life",
+        "urgency": "CRITICAL",
+        "causes": ["Brain hemorrhage", "Stroke", "Meningitis"],
+        "risks": ["Risk of stroke or brain hemorrhage"]
+    },
+    {
+        "symptoms": "seizure with loss of consciousness",
+        "urgency": "CRITICAL",
+        "causes": ["Epilepsy", "Brain injury"],
+        "risks": ["Risk of injury during seizure"]
+    },
+    {
+        "symptoms": "severe one-sided headache with nausea and light sensitivity",
+        "urgency": "HIGH",
+        "causes": ["Migraine"],
+        "risks": ["Risk of decreased quality of life"]
+    },
+    {
+        "symptoms": "dizziness and room spinning sensation",
+        "urgency": "MODERATE",
+        "causes": ["Benign paroxysmal positional vertigo (BPPV)", "Meniere's disease"],
+        "risks": ["Risk of falls and injury"]
+    },
+    {
+        "symptoms": "numbness and tingling in hands and feet",
+        "urgency": "HIGH",
+        "causes": ["Diabetes", "Peripheral neuropathy"],
+        "risks": ["Risk of permanent nerve damage"]
+    },
+    {
+        "symptoms": "memory loss and confusion",
+        "urgency": "CRITICAL",
+        "causes": ["Dementia", "Delirium", "Infection"],
+        "risks": ["Risk of falls and accidents"]
+    }
+]
+
