@@ -1,4 +1,6 @@
 import streamlit as st
+from dotenv import load_dotenv
+load_dotenv()
 import numpy as np
 import cv2
 from PIL import Image
@@ -84,8 +86,9 @@ with tab1:
             # Filter selection
             st.markdown("### Select Filter")
             st.session_state.selected_filter = st.select_slider(
-                "",
-                options=["Original", "Grayscale", "Infrared", "Xray"]
+                "Filter",
+                options=["Original", "Grayscale", "Infrared", "Xray"],
+                label_visibility="collapsed"
             )
 
             # Image display area
