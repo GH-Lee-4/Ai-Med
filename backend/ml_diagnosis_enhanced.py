@@ -464,7 +464,18 @@ class EnhancedMLDiagnosisModel:
         """Make diagnosis prediction using trained models"""
         if self.urgency_model is None or self.cause_model is None:
             if not self.load_models():
-                raise ValueError("Models not trained. Please train models first using train() method.")
+                print("Models not found. Attempting to train models automatically...")
+                # Try to train with default datasets if available
+                dataset_paths = []
+                datasets_dir = Path("datasets")
+                if datasets_dir.exists():
+                    dataset_paths = [str(f) for f in datasets_dir.glob("*.json")]
+                
+                try:
+                    self.train(dataset_paths=dataset_paths if dataset_paths else None)
+                    print("Auto-training successful.")
+                except Exception as e:
+                    raise ValueError(f"Models not trained and auto-training failed: {e}")
         
         # Vectorize input
         symptoms_vector = self.vectorizer.transform([symptoms_text])
